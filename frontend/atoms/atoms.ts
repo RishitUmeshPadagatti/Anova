@@ -31,7 +31,7 @@ export const dvAtom = atom({
         key: 'dvAtomSelectorKey',
         get: ({get}) => {
             const data = get(csvDataAtom)
-            return data[0][0]
+            return data[0][4]
         }
     })
     // default: 'Exam_Score_1'
