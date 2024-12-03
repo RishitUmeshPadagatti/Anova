@@ -22,7 +22,6 @@ export const csvDataAtom = atom<receivedDataFormat>({
 export const anovaTypeAtom = atom<anovaType>({
     key: "anovaTypeAtomKey",
     default: 'one-way'
-    // default: 'two-way'
 })
 
 export const dvAtom = atom({
@@ -34,7 +33,6 @@ export const dvAtom = atom({
             return data[0][4] || data[0][0]
         }
     })
-    // default: 'Exam_Score_1'
 })
 
 export const iv1Atom = atom({

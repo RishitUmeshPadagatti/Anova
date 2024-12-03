@@ -1,8 +1,7 @@
 export type receivedDataFormat = string[][]
 export type anovaType = "one-way" | "two-way"
 
-// export const serverLocation = "http://localhost:3000"
-export const serverLocation = "http://52.66.253.249:3000"
+export const serverLocation = "http://localhost:3000"
 
 export function generateRandomColor(){
     let letters = "0123456789abcdef"
